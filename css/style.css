@@ -1,12 +1,37 @@
-body {
-  font-size: 20px;
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url(../font/Gilroy/Gilroy-ExtraBold.otf) format("opentype"),
+    url(../font/Gilroy/Gilroy-Light.otf) format("opentype");
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(../font/Gilroy/Gilroy-Light.otf) format("opentype");
+}
+@font-face {
+  font-family: "Zing Rust Demo";
+  src: url(../font/Zing_Rust_Demo/ofont.ru_Zing\ Rust.ttf) format("truetype");
 }
 
-body div {
-  font-size: 10px;
+
+.container {
+  background-color: #403c3b;
+  display: flex;
+  flex-direction: column;
 }
 
-body h1 {
-  color: red;
-  font-size: 50px;
+.text {
+  color: #ffffff;
+  font-family: "Gilroy", Arial, sans-serif;
+}
+
+.logo {
+  
+}
+
+.banner {
+}
+
+.banner-text {
+  color: #ffffff;
+  font-family: "Zing Rust Demo", Arial, sans-serif;
 }
