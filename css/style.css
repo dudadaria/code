@@ -1,37 +1,66 @@
 @font-face {
-  font-family: "Gilroy-ExtraBold";
-  src: url(../font/Gilroy/Gilroy-ExtraBold.otf) format("opentype"),
+    font-family: "Gilroy-ExtraBold";
+    src: url(../font/Gilroy/Gilroy-ExtraBold.otf) format("opentype"),
     url(../font/Gilroy/Gilroy-Light.otf) format("opentype");
 }
+
 @font-face {
-  font-family: "Gilroy";
-  src: url(../font/Gilroy/Gilroy-Light.otf) format("opentype");
+    font-family: "Gilroy";
+    src: url(../font/Gilroy/Gilroy-Light.otf) format("opentype");
 }
+
 @font-face {
-  font-family: "Zing Rust Demo";
-  src: url(../font/Zing_Rust_Demo/ofont.ru_Zing\ Rust.ttf) format("truetype");
+    font-family: "Zing Rust Demo";
+    src: url(../font/Zing_Rust_Demo/ofont.ru_Zing Rust.ttf) format("truetype");
 }
 
 
 .container {
-  background-color: #403c3b;
-  display: flex;
-  flex-direction: column;
+    background-color: #403c3b;
+    display: flex;
+    flex-direction: column;
 }
 
 .text {
-  color: #ffffff;
-  font-family: "Gilroy", Arial, sans-serif;
+    color: #ffffff;
+    font-family: "Gilroy", Arial, sans-serif;
 }
 
 .logo {
-  
+
 }
 
 .banner {
 }
 
 .banner-text {
-  color: #ffffff;
-  font-family: "Zing Rust Demo", Arial, sans-serif;
+    color: #ffffff;
+    font-family: "Zing Rust Demo", Arial, sans-serif;
+}
+
+.menu {
+    display: flex;
+}
+
+.block_menu {
+    display: flex;
+}
+
+.main_card {
+    width: 325px;
+    height: 385px;
+    right: 1.22%;
+
+
+    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+    border-radius: 10px;
+}
+
+.main_card_image {
+    width: 325px;
+    height: 231px;
+    right: 18.84%;
+    top: 59.22%;
+    bottom: -43.64%;
+    background:#504B4A;
 }
